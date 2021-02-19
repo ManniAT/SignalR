@@ -1,11 +1,11 @@
 # SignalR
 Test app for SignalR
 
-This was create by:
+This was created by:
 
-a => new project asp.net MVC (no auth, not https)
+a => new project asp.net MVC (no auth, no https)
 
-b => build and run once
+b => build and run once (ensures packages are presenet and so on)
 
 c => add new item -- SignalR Hub -- TestHub.cs (installs neede packages)
 
@@ -15,8 +15,7 @@ e => add new project to solution -- .NET ConsoleApp SigClient
 
 f => add nuget package signalr.client to SigClient
 
-g => added code dot program.cs and TestHub.cs
+g => added code to program.cs and TestHub.cs
 
 h => added code to homecontroller (send on about)
-
 
